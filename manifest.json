@@ -1,0 +1,12 @@
+{
+    "name": "Anti-IU Chrome Extension",
+    "version": "0.1.0",
+    "description": "A Chrome extension for Boiler Makers.",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["script.js"]
+        }
+    ]
+}
